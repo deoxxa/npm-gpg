@@ -1,0 +1,24 @@
+{
+  "name": "npm-gpg",
+  "version": "0.0.0",
+  "description": "Sign and verify npm packages using GPG",
+  "bin": {
+    "npm-gpg-sign": "./bin/sign.sh",
+    "npm-gpg-verify": "./bin/verify.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/npm-gpg.git"
+  },
+  "keywords": [
+    "npm",
+    "gpg",
+    "sign"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deoxxa/npm-gpg/issues"
+  },
+  "homepage": "https://github.com/deoxxa/npm-gpg"
+}
